@@ -1,0 +1,61 @@
+.appbar-logo {
+  width: 40px;
+  height: 40px;
+  padding: 10px 20px 10px 0px;
+}
+
+.app-container {
+  padding-top: 60px;
+}
+.filter-icon{
+  color:white !important;
+}
+.messier-description,
+.messier-archive {
+  white-space: pre-line;
+}
+.messier-archive {
+  background: grey;
+  padding: 10px;
+  border-radius: 10px;
+  color: white !important;
+  font-style: italic;
+  margin-bottom: 10px !important;
+}
+
+.general-information-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.messier-card-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.messier-card {
+  margin: 10px;
+  min-height: 15rem;
+}
+.messier-card-favori{
+  border-top: 4px solid #1876d1;
+}
+
+.messier-card-state {
+  margin-bottom: 10px !important;
+  margin-top: -5px !important;
+}
+.messier-card-state > * {
+  margin-right: 5px;
+}
+
+
+.fab-to-top{
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
+}
