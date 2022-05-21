@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "messier-book",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

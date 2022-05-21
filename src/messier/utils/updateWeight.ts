@@ -1,8 +1,8 @@
 import { MessierObject } from '../types/MessierObject'
 
 const filters: {[index: string]:any} = {
-  DEFAULT: (o: MessierObject): number => o.number + (o.favori ? -1000 : 0),
-  MAGNITUDE: (o: MessierObject): number => o.magnitude*(-1) + (o.favori ? -1000 : 0),
+  DEFAULT: (o: MessierObject): number => o.favori ? o.number : 1000 + o.number,
+  MAGNITUDE: (o: MessierObject): number => o.favori ? o.magnitude + 30 : 1000 + 30 + o.magnitude,
 }
 
 export const updateWeight = (

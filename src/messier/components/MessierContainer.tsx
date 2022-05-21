@@ -49,7 +49,7 @@ export const MessierContainer = () => {
     <div className="messier-container">
       <div className="messier-card-list">
         {ctx.objects && ctx.objects
-          .sort(function (a, b) {
+          .sort((a, b) => {
             return a.weight - b.weight
           })
           .map((o) => (
